@@ -1,0 +1,73 @@
+.circle-2 {
+  position: absolute;
+  width: 1103px;
+  height: 1071.08px;
+  top: -69px;
+  left: -373px;
+  background: radial-gradient(
+    35.19% 35.19% at 50% 50%,
+    rgba(59, 149, 255, 0.17) 0%,
+    rgba(28, 106, 197, 0) 100%
+  );
+}
+.mobile-2 {
+  width: 516px;
+  height: 1079.29px;
+  top: 80px;
+  left: 699px;
+  border-radius: 85px 0px 0px 0px;
+  position: absolute;
+  z-index: 2;
+}
+.container-2 {
+  position: absolute;
+  width: 550px;
+  height: 257px;
+  top: 368px;
+  left: 227px;
+}
+.step1 {
+  width: 283px;
+  height: 59px;
+}
+
+.step1 p {
+  font-family: League Spartan;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 58.88px;
+  text-align: left;
+}
+.step1-list {
+  width: 550px;
+  height: 102px;
+}
+.text {
+  font-family: League Spartan;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 25.76px;
+  text-align: left;
+  color: #939393;
+  margin-bottom: 10px;
+}
+li.text::marker {
+  font-size: 32px;
+  color: #d9d9d9;
+}
+.selected {
+  color: #fcf1b6;
+}
+li.selected::marker {
+  color: #f6e43f;
+  font-size: 32px;
+}
+.step1a {
+  position: absolute;
+  width: 252px;
+  height: 249.82px;
+  top: 377.28px;
+  left: 524.68px;
+  transform: rotate(-5.51deg) scaleX(1.5);
+  z-index: 3;
+}

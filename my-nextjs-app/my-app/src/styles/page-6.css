@@ -1,0 +1,48 @@
+.circle-4 {
+  width: 1103px;
+  height: 1071.08px;
+  top: 123px;
+  left: -354px;
+  position: absolute;
+  background: radial-gradient(
+    35.19% 35.19% at 50% 50%,
+    rgba(59, 149, 255, 0.17) 0%,
+    rgba(28, 106, 197, 0) 100%
+  );
+}
+.step-margin li {
+  margin-bottom: 5px;
+}
+.step4 {
+  width: 204.98px;
+  height: 190.76px;
+  top: 632.33px;
+  left: 529px;
+  z-index: 3;
+  position: absolute;
+  transform: rotate(0deg) scaleX(2) scaleY(1.5);
+}
+.mobile-6 {
+  width: 372px;
+  height: 778.09px;
+  top: 69px;
+  left: 749px;
+  border-radius: 41px 0px 0px 0px;
+  z-index: 2;
+  position: absolute;
+}
+.step4-list {
+  width: 422px;
+  height: 78px;
+  padding-left: 11px;
+  padding-top: 5px;
+}
+.step4-list li {
+  width: 285px;
+  font-family: League Spartan;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25.76px;
+  text-align: left;
+  color: #eeeeee;
+}

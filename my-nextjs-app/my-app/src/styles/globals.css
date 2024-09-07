@@ -1,0 +1,203 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page-1,
+.page-2,
+.page-3,
+.page-4,
+.page-5,
+.page-6 {
+  display: none;
+}
+
+.page-1.visible,
+.page-2.visible,
+.page-3.visible,
+.page-4.visible,
+.page-5.visible,
+.page-6.visible {
+  display: block;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* Optional: Fade out effect */
+.page-1.hidden,
+.page-2.hidden,
+.page-3.hidden,
+.page-4.hidden,
+.page-5.hidden,
+.page-6.hidden {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.page {
+  position: relative;
+  width: 1512px;
+  height: 1044px;
+  top: 0px;
+  left: 0px;
+  background: #1b1b1b;
+  overflow: hidden;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.page.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.page.visible {
+  opacity: 1;
+  visibility: visible;
+}
+.circle-1 {
+  position: absolute;
+  width: 1103px;
+  height: 1071.08px;
+  top: -169px;
+  left: -358px;
+  background: radial-gradient(
+    35.19% 35.19% at 50% 50%,
+    rgba(59, 149, 255, 0.17) 0%,
+    rgba(28, 106, 197, 0) 100%
+  );
+}
+
+.box {
+  position: absolute;
+  width: 513px;
+  height: 1059px;
+  top: -15px;
+  left: 999px;
+  gap: 0px;
+  background: #00000033;
+}
+.bar {
+  position: absolute;
+  width: 0px;
+  height: 283px;
+  top: 392px;
+  left: 1294px;
+  gap: 0px;
+  border: 3px 0px 0px 0px;
+  border-radius: 50px;
+  opacity: 0px;
+  border: 3px solid #424242;
+}
+.slider {
+  position: relative;
+  margin: -3px;
+  width: 0px;
+  height: 22px;
+  border: 3px solid #6bafff;
+  border-radius: 50px;
+  animation: animatewindow 12s ease-in-out infinite;
+}
+.ball {
+  position: relative;
+  /* margin-top: 13px; */
+  margin-left: -9px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #6bafff;
+  animation: ball_color 12s ease-in-out infinite;
+}
+@keyframes animatewindow {
+  0% {
+    height: 22px;
+    background-color: rgba(90, 165, 253, 1);
+  }
+  20% {
+    height: 75px;
+    background-color: rgba(90, 165, 253, 1);
+  }
+  40% {
+    height: 75px;
+    background-color: rgba(90, 165, 253, 1);
+  }
+  60% {
+    height: 123px;
+    background-color: rgba(90, 165, 253, 1);
+  }
+  80% {
+    height: 199px;
+    background-color: rgba(90, 165, 253, 1);
+  }
+  100% {
+    height: 277px;
+    background-color: rgba(132, 241, 94, 1);
+  }
+}
+@keyframes ball_color {
+  0% {
+    background-color: rgba(90, 165, 253, 1);
+  }
+  80% {
+    background-color: rgba(90, 165, 253, 1);
+  }
+  100% {
+    background-color: rgba(132, 241, 94, 1);
+  }
+}
+
+.mobile-1 {
+  position: absolute;
+  width: 371px;
+  height: 776px;
+  top: 126px;
+  left: 745px;
+  z-index: 2;
+  border-radius: 51px 0px 0px 0px;
+}
+.container-1 {
+  position: absolute;
+  width: 422px;
+  height: 258px;
+  top: 368px;
+  left: 227px;
+}
+.line-1 {
+  width: 283px;
+  height: 118px;
+}
+.how {
+  font-family: League Spartan;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 58.88px;
+  text-align: left;
+  color: #aaaaaa;
+}
+.work {
+  color: #eeeeee;
+}
+.mark {
+  color: #459bff;
+}
+.line {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 84.02px;
+  height: 0px;
+  border: 2px solid #5aa5fd;
+}
+.line-2 {
+  width: 422px;
+  height: 44px;
+}
+.line-2 p {
+  font-family: League Spartan;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 22.08px;
+  text-align: left;
+  color: #eeeeee;
+}

@@ -1,0 +1,18 @@
+.step1b {
+  position: absolute;
+  width: 252px;
+  height: 249.82px;
+  top: 472.53px;
+  left: 634.68px;
+  transform: rotate(-4deg) scaleX(1.7);
+  z-index: 3;
+}
+.mobile-3 {
+  position: absolute;
+  width: 516px;
+  height: 1065.29px;
+  top: 17px;
+  left: 695px;
+  border-radius: 85px 0px 0px 0px;
+  z-index: 2;
+}
